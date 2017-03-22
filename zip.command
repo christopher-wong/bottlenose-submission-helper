@@ -4,7 +4,7 @@ echo -n -e "\033]0;My Window Name\007"
 cd -- "$(dirname "$BASH_SOURCE")"
 
 rm -f submission.zip
-zip -r submission.zip src test
+zip -r submission.zip src test out resources
 
 echo ""
 echo "Files zipped for submission!"
